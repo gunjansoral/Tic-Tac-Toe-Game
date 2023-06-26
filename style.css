@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  /* border: 1px solid #111; */
+  box-shadow: -1px 1px 5px 0px #11111159;
+  margin: 2px;
+  font-size: 68px;
+}
